@@ -1,0 +1,203 @@
+:root {
+  --main-text-color: black;
+  --secon-text-color: lightgray;
+  --nav-link-color: gray;
+  --button-text-color: white;
+  --acent-color: teal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+/* Секция хедер */
+.section-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+/* Лого компании */
+.logo {
+  margin-right: auto;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.text-logo {
+  color: var(--main-text-color);
+  font-weight: 900;
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+/* Блок навигации на другие страницы */
+.site-nav {
+  display: flex;
+}
+
+.nav-button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px 0;
+  color: var(--nav-link-color);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: var(--acent-color);
+}
+
+/* Кнопка в хедере */
+.button {
+  margin-left: 50px;
+}
+
+.button-link {
+  color: var(--button-text-color);
+  background-color: var(--acent-color);
+  text-align: center;
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.button-link:hover {
+  background-color: gray;
+}
+
+/* Секция герой */
+.hero {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.hero-information {
+  flex: 4;
+}
+
+.hero-background {
+  flex: 6;
+  background-color: lightgray;
+  line-height: 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  color: var(--secon-text-color);
+  max-width: 300px;
+}
+
+.store-list {
+  display: flex;
+  width: 100%;
+}
+
+.button-store {
+  display: flex;
+  margin: 70px 0;
+}
+
+.button-store:not(:last-child) {
+  margin-right: 10px;
+}
+
+.sicial-img {
+  display: flex;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.link-store {
+  color: var(--button-text-color);
+  background-color: black;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 30px;
+}
+
+.social {
+  display: flex;
+}
+
+/* Наши преимущества */
+.feature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.feature-box {
+  width: 330px;
+  padding: 40px;
+  border: 1px solid var(--secon-text-color);
+  border-radius: 25px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-text {
+  color: var(--secon-text-color);
+}

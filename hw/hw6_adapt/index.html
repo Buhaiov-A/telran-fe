@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refueling a car</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__body container">
+        <a href="" class="header__logo">
+          <img src="https://via.placeholder.com/50x50" alt="" />
+          <span class="header__logo_text">BENSINON</span>
+        </a>
+
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li>
+              <a href="" class="header__link">Home</a>
+            </li>
+            <li>
+              <a href="" class="header__link">Feature</a>
+            </li>
+            <li>
+              <a href="" class="header__link">Screen</a>
+            </li>
+            <li>
+              <a href="" class="header__link">Pricing</a>
+            </li>
+            <li>
+              <a href="" class="header__link">Team</a>
+            </li>
+            <li>
+              <a href="" class="header__link">Question</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__btn">
+          <a href="#" class="header__btn btn__link">Get Started</a>
+        </div>
+
+        <button class="header__burger" onclick="toggleMenu()">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero container">
+        <div class="left__side">
+          <h1 class="hero__title">
+            Refueling a <br />
+            car at your <br />
+            address
+          </h1>
+          <p class="hero__text subtitle__text">
+            Delivery service for all types of fuel for <br />
+            your car
+          </p>
+
+          <ul class="store">
+            <li class="store__btn">
+              <a class="store__link" href="#">Apple Store</a>
+            </li>
+            <li class="store__btn">
+              <a class="store__link" href="#">Google Play</a>
+            </li>
+          </ul>
+
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="#"> </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#"> </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#"> </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__bkg">
+          <img src="https://via.placeholder.com/700x600" alt="" />
+        </div>
+      </section>
+
+      <section class="feature container">
+        <ul class="feature__list">
+          <li class="feature__item">
+            <img
+              class="feature__img"
+              src="https://via.placeholder.com/60x60"
+              alt=""
+            />
+            <h2>Specified order</h2>
+            <p class="feature__text subtitle__text">
+              Refueling your car at the time and date you specify
+            </p>
+          </li>
+          <li class="feature__item">
+            <img
+              class="feature__img"
+              src="https://via.placeholder.com/60x60"
+              alt=""
+            />
+            <h2>Delivery</h2>
+            <p class="feature__text subtitle__text">
+              Refueling is carried out anywhere in the city
+            </p>
+          </li>
+          <li class="feature__item">
+            <img
+              class="feature-image"
+              src="https://via.placeholder.com/60x60"
+              alt=""
+            />
+            <h2>Payment types</h2>
+            <p class="feature__text subtitle__text">
+              Make a payment in anyway convenient for you
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".header__menu");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

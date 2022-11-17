@@ -1,0 +1,8 @@
+- [HW Menu](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/index.html)
+- [HW1-2. Site+header](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/)
+- [HW 3. Login Page](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/)
+- [HW 4. Travel Page](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/)
+- [HW 5. Grid](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/)
+- [HW 6. Site BENSINON](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/hw6/index.html)
+- [HW 6.1 Site BENSINON mobile](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/hw6_adapt/index.html)
+- [HW 7. Dashboard | Academy](https://buhaiov-a.github.io/telran-fe-hw/lessons/hw/hw7/index.html)

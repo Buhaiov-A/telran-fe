@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site nav</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body{
+            max-width: 100%;
+            height: 100%;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .wrapper {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .site-nav {
+            width: 1170px;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            background-color: lightgray;
+        }
+
+        .link {
+            display: block;
+            padding: 20px 0;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        .link:hover {
+            color: aliceblue;
+        }
+
+        .item {
+            margin: auto;
+        }
+
+        .hero {
+            display: flex;
+            max-width: 1200px;
+            height: 400px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+        }
+
+        .stor {
+            padding: 50px 0;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product-card {
+            width: 300px;
+            margin-bottom: 50px;
+        }
+
+        .subtitle {
+            color: black;
+            font-size: 2.5rem;
+        }
+
+        .text {
+            color: black;
+            font-size: 1.2rem;
+        }
+
+        .button {
+            min-width: 250px;
+            min-height: 50px;
+            background-color: lightgray;
+            border: 0px;
+            border-radius: 20px;
+            padding: 15px;
+            color: black;
+            font-size: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .button:hover {
+            background-color: gray;
+        }
+
+        .title {
+            text-transform: uppercase;
+            margin-bottom: 50px;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <ul class="site-nav">
+            <li class="item">
+                <a class="link" href="">Главная</a>
+            </li>
+            <li class="item">
+                <a class="link" href="">услуги</a>
+            </li>
+            <li class="item">
+                <a class="link" href="">кейсы</a>
+            </li>
+            <li class="item">
+                <a class="link" href="">о компании</a>
+            </li>
+            <li class="item">
+                <a class="link" href="">контакты</a>
+            </li>
+        </ul>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="title">здесь может быть ваша реклама</h1>
+            <a class="button" href="#">тыц</a>
+            </div>
+        </div>
+
+        <div class="stor">
+            <ul class="product">
+                <li class="product-card">
+                    <a href="#">
+                        <img src="https://place-hold.it/300x500" alt="" width="300" height="300">
+                        <div class="product-info">
+                            <h2 class="subtitle">
+                                01/
+                            </h2>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-card">
+                    <a href="#">
+                        <img src="https://place-hold.it/300x500" alt="" width="300" height="300">
+                        <div class="product-info">
+                            <h2 class="subtitle">
+                                02/
+                            </h2>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-card">
+                    <a href="#">
+                        <img src="https://place-hold.it/300x500" alt="" width="300" height="300">
+                        <div class="product-info">
+                            <h2 class="subtitle">
+                                03/
+                            </h2>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-card">
+                    <a href="#">
+                        <img src="https://place-hold.it/300x500" alt="" width="300" height="300">
+                        <div class="product-info">
+                            <h2 class="subtitle">
+                                04/
+                            </h2>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-card">
+                    <a href="#">
+                        <img src="https://place-hold.it/300x500" alt="" width="300" height="300">
+                        <div class="product-info">
+                            <h2 class="subtitle">
+                                05/
+                            </h2>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product-card">
+                    <a href="#">
+                        <img src="https://place-hold.it/300x500" alt="" width="300" height="300">
+                        <div class="product-info">
+                            <h2 class="subtitle">
+                                06/
+                            </h2>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

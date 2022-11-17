@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body,
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 50px;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .row {
+            margin-bottom: 2rem;
+
+        }
+
+        .title {
+            font-size: 2.5rem;
+        }
+
+        .input {
+            font-size: 1.5rem;
+            padding: .5rem;
+            border-radius: 8px;
+            border: 1px solid gray;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .button {
+            background: rgb(12, 92, 12);
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 1.5rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .button:hover {
+            color: black;
+            background: rgb(191, 147, 36);
+        }
+
+        .login-form {
+            flex: 1;
+        }
+
+        .baner {
+            flex: 1;
+            height: 100%;
+            background-image: url(https://images.unsplash.com/photo-1666303349337-0375dd8d344a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80);
+            background-size: cover;
+            background-position: center;
+            object-fit: cover;
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form class="login-form">
+            <h1 class="title">
+                Sign In
+            </h1>
+    
+            <div class="row">
+                <input class="input" type="text" placeholder="user@example.com">
+            </div>
+    
+            <div class="row">
+                <input class="input" type="text" placeholder="Password">
+            </div>
+    
+            <div class="row">
+                <button class="button">Login</button>
+            </div>
+        </form>
+    
+        <div class="baner"></div>
+    </div>
+
+</body>
+</html>
