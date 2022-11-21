@@ -5,46 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="icon">
-        <img src="./img/icon.png" alt="" />
+        <a href="./index.html">
+          <img src="./img/icon.png" alt="logo" />
+        </a>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="">О Нас</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">О Нас</a>
           </li>
-          <li>
-            <a href="">Проекты</a>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Проекты</a>
           </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Контакты</a>
           </li>
         </ul>
       </nav>
 
-      <div>
-        <ul>
-          <li>
-            <a href=""></a>
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="./img/icons/inst.png" alt="Instagram" />
+            </a>
           </li>
-          <li>
-            <a href=""></a>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="./img/icons/fa.png" alt="facebook" />
+            </a>
           </li>
-          <li>
-            <a href=""></a>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="./img/icons/in.png" alt="LinkedIn" />
+            </a>
           </li>
         </ul>
       </div>
     </header>
 
     <main>
-      <section></section>
-      <section></section>
+      <section id="about">
+        <div class="about__img">
+          <img src="./img/ofis.png" alt="" />
+        </div>
+        <div class="about__text">
+          <h2>О нас</h2>
+          <p>
+            Далеко-далеко за словесными горами в стране гласных и согласных
+            живут рыбные тексты. Рукописи назад моей необходимыми путь проектах,
+            не семантика над безорфографичный маленький текст подзаголовок
+            оксмокс по всей до страну рыбного, которое рот.
+          </p>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Наши проекты</h2>
+        <ul class="card">
+          <li class="card__item">
+            <a href="#">
+              <div class="card__image">
+                <img src="./img/arena.png" alt="image" />
+              </div>
+              <div class="card__content">
+                <h3>Заголовок</h3>
+                <p>
+                  Далеко-далеко за словесными горами в стране гласных и
+                  согласных живут рыбные тексты. Но заглавных грамматики на
+                  берегу коварный запятых использовало большой несколько если
+                  страна снова инициал то, моей, бросил рыбными. Грустный,
+                  вершину несколько.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="card__item">
+            <a href="#">
+              <div class="card__image">
+                <img src="./img/arena.png" alt="image" />
+              </div>
+              <div class="card__content">
+                <h3>Заголовок</h3>
+                <p>
+                  Далеко-далеко за словесными горами в стране гласных и
+                  согласных живут рыбные тексты. Но заглавных грамматики на
+                  берегу коварный запятых использовало большой несколько если
+                  страна снова инициал то, моей, бросил рыбными. Грустный,
+                  вершину несколько.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="card__item">
+            <a href="#">
+              <div class="card__image">
+                <img src="./img/arena.png" alt="image" />
+              </div>
+              <div class="card__content">
+                <h3>Заголовок</h3>
+                <p>
+                  Далеко-далеко за словесными горами в стране гласных и
+                  согласных живут рыбные тексты. Но заглавных грамматики на
+                  берегу коварный запятых использовало большой несколько если
+                  страна снова инициал то, моей, бросил рыбными. Грустный,
+                  вершину несколько.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer id="contacts">
+      <h2>Контакты</h2>
+      <ul class="contact">
+        <li class="contact-item">
+          <img src="./img/icons/map.png" alt="" />
+          <h3>Адрес:</h3>
+          <a href="https://www.google.com/maps/"
+            >Невский проспект 140, <br />
+            Офис 140-142</a
+          >
+        </li>
+        <li class="contact-item">
+          <img src="./img/icons/phone.png" alt="" />
+          <h3>Телефон:</h3>
+          <a href="tel:+78812112233">8 (812) 11 22 33</a>
+        </li>
+        <li class="contact-item">
+          <img src="./img/icons/time.png" alt="" />
+          <h3>Время работы:</h3>
+          <a href="#contacts">ПН-СБ 10:00 - 20:00</a>
+        </li>
+        <li class="contact-item">
+          <img src="./img/icons/letter.png" alt="" />
+          <h3>E-Mail:</h3>
+          <a href="mailto:info@vip.ru">info@vip.ru</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
