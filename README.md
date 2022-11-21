@@ -5,4 +5,4 @@
 - [HW 5. Grid](https://buhaiov-a.github.io/telran-fe/hw/hw5/grid_areas_hw.html)
 - [HW 6. Site BENSINON](https://buhaiov-a.github.io/telran-fe/hw/hw6_adapt/index.html)
 - [HW 7. Dashboard | Academy](https://buhaiov-a.github.io/telran-fe/hw/hw7/index.html)
-- [HW 8. Site] (https://buhaiov-a.github.io/telran-fe/hw/hw8/index.html)
+- [HW 8. Site](https://buhaiov-a.github.io/telran-fe/hw/hw8/index.html)
